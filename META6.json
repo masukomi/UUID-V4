@@ -1,0 +1,27 @@
+{
+  "api": "1",
+  "auth": "zef:masukomi",
+  "authors": [
+    "masukomi <masukomi@masukomi.org>"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "Crypt::Random"
+  ],
+  "description": "generates a random v4 UUID (Universally Unique IDentifier)",
+  "license": "MIT",
+  "name": "UUID::V4",
+  "perl": "6.d",
+  "provides": {
+    "UUID::V4": "lib/UUID/V4.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/masukomi/UUID-V4.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "1.0.0"
+}

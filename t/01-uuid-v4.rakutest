@@ -1,0 +1,7 @@
+use Test;
+use lib 'lib';
+use UUID::V4;
+
+is(is-uuid-v4(uuid-v4()), True, "uuid-v4 generates uuid-v4 matching strings");
+
+done-testing;

@@ -39,10 +39,8 @@ This library is free software; you can redistribute it and/or modify it under th
 =head2 WHY
 
 Unfortunately L<LibUUID|https://github.com/CurtTilmes/perl6-libuuid> requires the C<uuid> dynamic library
-which didn't exist on my mac. This library uses L<Crypt::Random|https://github.com/skinkade/crypt-random>
+which wasn't found on my mac, and thus I can't rely on it to "just work" on other people's macs when it's a dependency. This library uses L<Crypt::Random|https://github.com/skinkade/crypt-random>
 which doesn't suffer from that problem and should work on all Unix / Linux systems and Windows.
-
-
 
 
 =end pod
